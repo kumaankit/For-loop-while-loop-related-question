@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Sumofdigitprint {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+		int a, sum=0;
+		System.out.println("enter number");
+		Scanner obj= new Scanner(System.in);
+		a= obj.nextInt();
+		
+		while (a>0) {
+		int	n= a%10;
+		sum = sum +n;	
+		a= a/10;
+		
+		
+		}
+	
+		System.out.print(sum);
+	
+	
+	}
+
+}
